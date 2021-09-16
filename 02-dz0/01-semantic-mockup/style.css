@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+}
+
+header {
+  background-color: red;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+nav {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+
+nav > a {
+  color: white;
+  font-size: 20px;
+}
+
+nav > a:not(:last-child) {
+  margin-right: 10px;
+}
+
+main {
+  background-color: green;
+  padding: 10px;
+}
+
+article {
+  padding: 20px 10px;
+  margin-bottom: 5px;
+  background-color: blue;
+}
+
+article > h2 {
+  margin-bottom: 10px;
+}
+
+article > ul, article > ol {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: darkviolet;
+  text-align: center;
+  font-size: 36px;
+}
