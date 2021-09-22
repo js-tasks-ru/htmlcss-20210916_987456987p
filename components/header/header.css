@@ -1,0 +1,9 @@
+.header {
+  max-width: var(--width);
+  margin: 0 auto;
+  padding: 96px 0 77px 0;
+}
+.header__title {
+  font-size: 50px;
+  line-height: 64px;
+}
