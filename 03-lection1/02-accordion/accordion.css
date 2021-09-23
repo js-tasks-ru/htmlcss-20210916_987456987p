@@ -1,17 +1,16 @@
 /* Стилизация аккордеона */
 .accordion {
-  width: 730px;
-  margin: 0 auto;
+  width: 730px; /*Deleted margin*/
 }
 
 .accordion__item {
   padding: 25px 30px;
   border: 1px solid var(--grey-3);
-  border-radius: 10px;
+  border-radius: 8px; /*fixed to 8px*/
 }
 
 .accordion__item:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .accordion__title::-webkit-details-marker {
@@ -23,10 +22,16 @@
   list-style: none;
 }
 
+/*Deleted float, added flexbox*/
+.accordion__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .accordion__title:after {
   content: '\f078';
   font-family: "Font Awesome 5 free";
-  float: right;
   transition: all .2s linear;
 }
 
