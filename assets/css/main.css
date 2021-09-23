@@ -1,5 +1,4 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 @import '../fonts/fonts.css';
 
 :root {
@@ -29,6 +28,9 @@
   color: var(--black);
   font-size: 16px;
   line-height: 24px;
+}
+html, body {
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
