@@ -7,13 +7,13 @@
   line-height: 19px;
   color: var(--white);
   border: none;
-  border-radius: 8px;
+  border-radius: 8px; /*fixed*/
   transition: all .5s linear;
   cursor: pointer;
 }
 
 .btn:disabled {
-  opacity: .5;
+  opacity: .5; /*deleted cursor pointer*/
   pointer-events: none;
 }
 
