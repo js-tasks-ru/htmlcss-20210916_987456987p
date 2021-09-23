@@ -10,7 +10,7 @@
 }
 
 .accordion__item:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 8px; /*fixed*/
 }
 
 .accordion__title::-webkit-details-marker {
@@ -40,6 +40,6 @@
 }
 
 .accordion__description {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
