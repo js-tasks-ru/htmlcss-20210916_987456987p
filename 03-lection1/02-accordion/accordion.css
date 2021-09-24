@@ -1,1 +1,45 @@
 /* Стилизация аккордеона */
+.accordion {
+  width: 730px; /*Deleted margin*/
+}
+
+.accordion__item {
+  padding: 25px 30px;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px; /*fixed to 8px*/
+}
+
+.accordion__item:not(:last-child) {
+  margin-bottom: 8px; /*fixed*/
+}
+
+.accordion__title::-webkit-details-marker {
+  display: none
+}
+
+/* Убираем стандартный маркер Firefox */
+.accordion__item > .accordion__title {
+  list-style: none;
+}
+
+/*Deleted float, added flexbox*/
+.accordion__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion__title:after {
+  content: '\f078';
+  font-family: "Font Awesome 5 free";
+  transition: all .2s linear;
+}
+
+.accordion__item[open] .accordion__title:after {
+  transform: rotate(180deg);
+}
+
+.accordion__description {
+  margin-bottom: 8px;
+}
+
