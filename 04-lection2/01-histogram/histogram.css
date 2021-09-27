@@ -35,7 +35,7 @@
 }
 
 .histogram__bar {
-  flex: 1;
+  flex-basis: 9px;
   width: 100%;
   background-color: var(--blue-histogram);
 }
