@@ -17,6 +17,10 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --main-section-bg: #F9FAFC;
+    --skeleton-gradient-1: var(--grey-2);
+    --skeleton-gradient-2: #E2E6E8;
+    --skeleton-gradient-3: #F3F5F5;
+    --skeleton-gradient-4: #E3E7EA;
 
     --error: var(--red);
     --success: var(--blue);
