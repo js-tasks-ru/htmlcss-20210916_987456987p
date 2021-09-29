@@ -23,6 +23,8 @@
     --skeleton-gradient-4: #E3E7EA;
     --blue-tooltip: var(--blue-histogram);
 
+    --black-modal: #334D6E;
+
     --error: var(--red);
     --success: var(--blue);
 
