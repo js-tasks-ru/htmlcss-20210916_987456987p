@@ -22,6 +22,8 @@
     --skeleton-gradient-3: #F3F5F5;
     --skeleton-gradient-4: #E3E7EA;
 
+    --black-modal: #334D6E;
+
     --error: var(--red);
     --success: var(--blue);
 
