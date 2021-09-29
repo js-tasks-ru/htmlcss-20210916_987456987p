@@ -21,6 +21,7 @@
     --skeleton-gradient-2: #E2E6E8;
     --skeleton-gradient-3: #F3F5F5;
     --skeleton-gradient-4: #E3E7EA;
+    --blue-tooltip: var(--blue-histogram);
 
     --error: var(--red);
     --success: var(--blue);
