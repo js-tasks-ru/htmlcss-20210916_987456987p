@@ -22,6 +22,10 @@
     --skeleton-gradient-3: #F3F5F5;
     --skeleton-gradient-4: #E3E7EA;
     --blue-tooltip: var(--blue-histogram);
+    --calendar-main: #334D6E;
+    --calendar-day: #90A0B7;
+    --calendar-selected: var(--blue-histogram);
+    --calendar-interval: #A0B1F5;
 
     --black-modal: #334D6E;
 
