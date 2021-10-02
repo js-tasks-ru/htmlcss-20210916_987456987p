@@ -13,7 +13,7 @@
 }
 
 .histogram__link {
-  color: var(--blue-histogram);
+  color: var(--histogram-blue);
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@
 .histogram__bar {
   flex-basis: 9px;
   width: 100%;
-  background-color: var(--blue-histogram);
+  background-color: var(--histogram-blue);
 }
 
 .histogram__bar:not(:last-child) {

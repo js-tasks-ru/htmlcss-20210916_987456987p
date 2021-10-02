@@ -4,10 +4,3 @@
   border-top: 1px solid var(--grey-2);
   border-bottom: 1px solid var(--grey-2);
 }
-
-.main-section__preview {
-  padding: 68px 0 204px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}

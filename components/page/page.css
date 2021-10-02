@@ -5,6 +5,7 @@
 }
 
 .page__box {
+  width: 100%;
   max-width: var(--width);
   margin: 0 auto;
 }
