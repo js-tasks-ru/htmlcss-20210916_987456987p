@@ -1,0 +1,95 @@
+.component-page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.component-page__header {
+  height: 82px;
+}
+
+.component-page__preview {
+  display: grid;
+  grid-template-rows: 1fr;
+  background-color: var(--componentPage-bg);
+  padding: 36px 0;
+}
+
+.component-page__content {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 56px;
+}
+
+.component-page__aside {
+  max-width: 229px;
+}
+
+.component-page__nav-title {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--componentPage-black);
+}
+
+.component-page__nav-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.component-page__nav-item {
+  margin: 4px 0;
+}
+
+.component-page__nav-item:last-child {
+  margin-top: 30px;
+}
+
+.component-page__nav-link {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--componentPage-link);
+  text-decoration: none;
+}
+
+.component-page__nav-link--selected {
+  color: var(--componentPage-link-selected);
+}
+
+.component-page__main {
+  padding: 32px 48px;
+  border: none;
+  background: var(--white);
+  box-shadow: 0 2px 4px rgba(33, 36, 41, .05);
+  border-radius: 12px;
+}
+
+.component-page__main-title {
+  font-size: 28px;
+  line-height: 38px;
+  color: var(--grey-4);
+}
+
+.component-page__footer {
+  height: 130px;
+  background-color: var(--componentPage-bg);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.component-page__footer-description {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--grey-3);
+}
+
+
+
+
+
+

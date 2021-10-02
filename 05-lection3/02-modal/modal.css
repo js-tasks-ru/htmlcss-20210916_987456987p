@@ -23,7 +23,7 @@
 .modal__title {
   font-weight: 600;
   font-size: 20px;
-  color: var(--black-modal);
+  color: var(--modal-black);
 }
 
 .modal__description {
