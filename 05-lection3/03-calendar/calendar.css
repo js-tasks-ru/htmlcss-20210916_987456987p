@@ -42,10 +42,6 @@
   align-items: center;
 }
 
-.calendar__item:nth-child(8) {
-  grid-column-start: 6;
-}
-
 .calendar__item--day {
   color: var(--calendar-day);
   font-style: normal;
