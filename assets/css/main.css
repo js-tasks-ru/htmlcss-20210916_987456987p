@@ -26,6 +26,11 @@
 
     --histogram-blue: #4263EB;
 
+    --calendar-main: #334D6E;
+    --calendar-day: #90A0B7;
+    --calendar-selected: var(--histogram-blue);
+    --calendar-interval: #A0B1F5;
+
     --tooltip-blue: var(--histogram-blue);
 
     --componentPage-bg: #E5E5E5;
