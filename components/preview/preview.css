@@ -1,0 +1,6 @@
+.preview {
+  padding: 68px 0 204px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
